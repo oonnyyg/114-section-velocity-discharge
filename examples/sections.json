@@ -1,0 +1,36 @@
+{
+  "sections": [
+    {
+      "id": "S1",
+      "verticals": [
+        {"position": 0.0, "depth": 0.0},
+        {"position": 5.0, "depth": 1.2,
+         "samples": [
+           {"rel_depth": 0.0, "velocity": 0.8},
+           {"rel_depth": 0.5, "velocity": 0.6},
+           {"rel_depth": 1.0, "velocity": 0.2}
+         ]},
+        {"position": 12.0, "depth": 1.5,
+         "samples": [
+           {"rel_depth": 0.0, "velocity": -0.4},
+           {"rel_depth": 1.0, "velocity": -0.1}
+         ]},
+        {"position": 18.0, "depth": 0.0}
+      ]
+    },
+    {
+      "id": "S2-dry",
+      "verticals": [
+        {"position": 0.0, "depth": 0.0},
+        {"position": 6.0, "depth": 0.0}
+      ]
+    },
+    {
+      "id": "S3-bad",
+      "verticals": [
+        {"position": 0.0, "depth": 0.0},
+        {"position": 0.0, "depth": 0.0}
+      ]
+    }
+  ]
+}

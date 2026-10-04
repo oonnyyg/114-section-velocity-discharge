@@ -1,0 +1,59 @@
+{
+  "sections": [
+    {
+      "section_id": "S1",
+      "verticals": [
+        {
+          "position": 0.0,
+          "depth": 0.0,
+          "mean_velocity": 0.0
+        },
+        {
+          "position": 5.0,
+          "depth": 1.2,
+          "mean_velocity": 0.55
+        },
+        {
+          "position": 12.0,
+          "depth": 1.5,
+          "mean_velocity": -0.25
+        },
+        {
+          "position": 18.0,
+          "depth": 0.0,
+          "mean_velocity": 0.0
+        }
+      ],
+      "area": 16.950000000000003,
+      "discharge": 1.6275000000000004,
+      "mean_velocity": 0.09601769911504425,
+      "note": null
+    },
+    {
+      "section_id": "S2-dry",
+      "verticals": [
+        {
+          "position": 0.0,
+          "depth": 0.0,
+          "mean_velocity": 0.0
+        },
+        {
+          "position": 6.0,
+          "depth": 0.0,
+          "mean_velocity": 0.0
+        }
+      ],
+      "area": 0.0,
+      "discharge": 0.0,
+      "mean_velocity": null,
+      "note": "全干断面：面积与流量均为零，平均流速无定义"
+    }
+  ],
+  "errors": [
+    {
+      "index": 2,
+      "section_id": "S3-bad",
+      "error": "垂线横向位置必须严格递增"
+    }
+  ]
+}
